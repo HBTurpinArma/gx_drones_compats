@@ -1,3 +1,5 @@
+#include "script_component.hpp"
+
 class CfgPatches {
 	class GX_DRONES_COMPAT_CROCUS {
 		author = "GX";
