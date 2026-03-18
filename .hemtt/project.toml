@@ -1,0 +1,40 @@
+name = "GX - Drones Compatibility Patches"
+prefix = "gx_drones_compats"
+
+[files]
+include = [
+    "*.dll",
+    "mod.cpp",
+    "meta.cpp",
+    "gx_logo.paa",
+    "gx_icon.paa",
+    "README.md",
+    "addons/*.pbo",
+    "addons/*.bisign",
+    "keys/*.bikey"
+]
+
+
+exclude = [
+    "*.psd",
+]
+
+[properties]
+author = "GanX"
+url = ""
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0
+
+[hemtt.build]
+pdrive = "require"
+
+[hemtt.check]
+pdrive = "require"
+
+
+# ignore mismatched $PBOPREFIX$ for addon
+ignore_pboprefix = true # Default: false

@@ -1,0 +1,9 @@
+name="GX - Drones Compatibility Patches";
+picture="gx_icon.paa";
+logo="gx_logo.paa";
+action="";
+tooltip="GX - Drones Compatibility Patches";
+overview="Drones by GX.";
+hidePicture=0;
+hideName=0;
+author = "GanX";
