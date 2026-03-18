@@ -32,6 +32,11 @@
 #define GX_DRONES_REPLACE_ACE_ACTIONS(drone_class_name,drone_display_name)\
 	class ACE_Actions {\
 		class ACE_MainActions {\
+			displayName = "Interactions";\
+			position = "_target selectionPosition [""interact"",""Memory""]";\
+			selection = "";\
+			distance = 4;\
+			condition = "true";\
 			GX_DRONES_ADD_ACE_ACTIONS(drone_class_name,drone_display_name);\
 		};\
 	}
